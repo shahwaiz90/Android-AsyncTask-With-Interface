@@ -1,7 +1,7 @@
 import android.support.v7.app.AppCompatActivity;
 
 
-abstract class AbstractWorkerClass extends AppCompatActivity{
+abstract class AbstractActivity extends AppCompatActivity{
     protected void logoutScenario(){
         finish();
     }
