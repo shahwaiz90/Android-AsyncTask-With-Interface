@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AbstractWorkerClass {
+public class MainActivity extends AbstractActivity{
     TextView someText;
     String TAG = "MainActivity";
     WorkerTaskFromAsync workerTaskFromAsync;
